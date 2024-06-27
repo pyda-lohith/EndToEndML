@@ -21,10 +21,10 @@ class CustomException(Exception):
     
 
 ## To test the exception file 
-if __name__== "main":
+# if __name__== "main":
     
-    try:
-        k= 1/0
-    except Exception as e:
-        logging.info("divide by zero")
-        raise CustomException(e,sys)
+#     try:
+#         k= 1/0
+#     except Exception as e:
+#         logging.info("divide by zero")
+#         raise CustomException(e,sys)
